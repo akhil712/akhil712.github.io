@@ -1,1 +1,1 @@
-# akhil712.github.io
+# akhil712.io
