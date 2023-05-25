@@ -1,0 +1,32 @@
+a {
+  text-decoration: none;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+  color: #dc3545;
+}
+
+a:focus, a:hover, a:active {
+  color: #dc3545;
+}
+
+a:hover {
+  color: #dc3545;
+}
+
+.bg-dark {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+}
+
+@media (min-width: 992px) #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+  background: #dc3545;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
+  color: #fff;
+}
+
+a {
+}
+
